@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <h1> The infamous Rock Papers and Scissors </h1>
+    <header></header>
+    <div>
+        <p> This game is simple and easy. But in case you have forgotten the method of playing it, I will remind you, gentle game player, of the rules:</p>
+        <ul>
+            <li> Choose Rock, Paper, or Scissors.</li>
+            <li> Press Submit and the conmputer will respond.</li>
+            <li> Did you win or loose?</li>
+            <li> For more fun, lets keep score!</li>
+        </ul>
+    </div>
+    <div>
+        <form action="/action_page.php">
+            <h3>Choose Rock, Paper, or Scissors:</h3>
+              <input img= "https://www.clipartwiki.com/clipimg/detail/123-1235969_rock-paper-scissors-clipart.png"
+              type="radio" name="rock" value="rock"> Rock<br>
+              <input type="radio" name="paper" value="paper"> paper<br>
+              <input type="radio" name="scissors" value="scissors"> scissors<br> 
+              <button id= "submitGuess" >Submit Guess</button>
+    </div>
+    <div>
+        <button type="button"> "Bring it on!"</button>  
+    </div>
+    <div class="score-board">
+        <div id="user-label" class="badge">user</div>
+        <div id="computer-label" class="badge">computer</div>
+        <span id=user-score>0</span>:
+        <span id="computer-score">0</span>
+    </div>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>

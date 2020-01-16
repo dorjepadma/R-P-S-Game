@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+    }
+body {
+    background-color: blueviolet;
+}
+
+h1 {
+    text-align: center;
+    font: Garamond;
+}
+
+h3 {
+    text-align: center;
+    font: Garamond;
+    font-size: 28px;
+}
+
+p {
+    text-align: center;
+    font: Arial;
+    font-size: 18}
+ul {
+    text-align: center;
+    font: Arial;
+    font-size: 18}
+}   
+
+.score-board{
+    margin: 20px;
+    border: 3px;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    color: white;
+    background-color: blue;
+    font-size: 36px;
+    font-family: Arial;
+    position: center;
+
+}
