@@ -25,22 +25,32 @@
     <div>
         <form action="/action_page.php">
             <h3>Choose Rock, Paper, or Scissors:</h3>
-              <input img= "https://www.clipartwiki.com/clipimg/detail/123-1235969_rock-paper-scissors-clipart.png"
-              type="radio" name="rock" value="rock"> Rock<br>
-              <input type="radio" name="paper" value="paper"> paper<br>
-              <input type="radio" name="scissors" value="scissors"> scissors<br> 
-              <button id= "submitGuess" >Submit Guess</button>
+   <label>
+              <input type="radio" name="player-choice" value="rock"> <img src="https://img.favpng.com/15/7/4/rock-paper-scissors-computer-icons-clip-art-png-favpng-xH0BXxD1qqNPJfybmeQS4ny5K.jpg">
+              <input type="radio" name="player-choice" value="paper"> <img src='https://www.pinclipart.com/picdir/middle/51-511523_rock-paper-rock-paper-scissors-clipart-png-download.png'>
+              <input type="radio" name="player-choice" value="scissors"> 
+              <img src= "https://www.trzcacak.rs/myfile/detail/131-1314620_rock-paper-scissors-png.png">
+              <button id= "submit-guess" >Submit Guess</button>
+     </label>
     </div>
     <div>
         <button type="button"> "Bring it on!"</button>  
     </div>
     <div class="score-board">
         <div id="user-label" class="badge">user</div>
-        <div id="computer-label" class="badge">computer</div>
-        <span id=user-score>0</span>:
+        <!-- <div id="computer-label" class="badge">computer</div> -->
+        <span id= "user-score">0</span>:
         <span id="computer-score">0</span>
+        <section> 
+            <p id="result-display"></p>
+            <p id ="result-tally"></p>
+            Wins: <span id='wins'>0<span> 
+            Losses: <span id='losses'>0</span>
+            Ties:  </span id= 'ties'>0</span>
+                </p>
+        </section>
     </div>
-
+<footer></footer>
     <script type="module" src="app.js"></script>
 </body>
 

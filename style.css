@@ -26,8 +26,11 @@ ul {
     text-align: center;
     font: Arial;
     font-size: 18}
-}   
-
+   
+img {
+    height: 200px;
+    width: 200px;
+}
 .score-board{
     margin: 20px;
     border: 3px;
