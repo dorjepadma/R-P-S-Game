@@ -4,13 +4,12 @@ export default function checkResult(playerChoice, computerChoice) {
         return 'Tie!';
     }
     else if (playerChoice === 'paper' && computerChoice === 'rock')
-    {
-        console.log ('You win!');
+    {   console.log ('You win!');
         return 'You win!';
     } else if (playerChoice === 'rock' && computerChoice === 'scissors')
     {
         console.log ('You win!');
-        return ' c';
+        return 'You win';
     } else if (playerChoice === 'scissors' && computerChoice === 'paper')
     {
         console.log ('You win!');

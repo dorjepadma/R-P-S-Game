@@ -17,38 +17,32 @@
         <p> This game is simple and easy. But in case you have forgotten the method of playing it, I will remind you, gentle game player, of the rules:</p>
         <ul>
             <li> Choose Rock, Paper, or Scissors.</li>
-            <li> Press Submit and the conmputer will respond.</li>
+            <li> Press "Bring it On!" and the conmputer will respond.</li>
             <li> Did you win or loose?</li>
             <li> For more fun, lets keep score!</li>
         </ul>
     </div>
     <div>
         <form action="/action_page.php">
-            <h3>Choose Rock, Paper, or Scissors:</h3>
-   <label>
-              <input type="radio" name="player-choice" value="rock"> <img src="https://img.favpng.com/15/7/4/rock-paper-scissors-computer-icons-clip-art-png-favpng-xH0BXxD1qqNPJfybmeQS4ny5K.jpg">
-              <input type="radio" name="player-choice" value="paper"> <img src='https://www.pinclipart.com/picdir/middle/51-511523_rock-paper-rock-paper-scissors-clipart-png-download.png'>
-              <input type="radio" name="player-choice" value="scissors"> 
-              <img src= "https://www.trzcacak.rs/myfile/detail/131-1314620_rock-paper-scissors-png.png">
-              <button id= "submit-guess" >Submit Guess</button>
-     </label>
+        <h3>Choose Rock, Paper, or Scissors:</h3>
+        <div class="radio-inputs">
+        <input type="radio" name="game" value="rock"> <img src="https://img.favpng.com/15/7/4/rock-paper-scissors-computer-icons-clip-art-png-favpng-xH0BXxD1qqNPJfybmeQS4ny5K.jpg">
+        <input type="radio" name="game" value="paper"> <img src='https://www.pinclipart.com/picdir/middle/51-511523_rock-paper-rock-paper-scissors-clipart-png-download.png'>
+        <input type="radio" name="game" value="scissors"> 
+        <img src= "https://www.trzcacak.rs/myfile/detail/131-1314620_rock-paper-scissors-png.png">
     </div>
-    <div>
-        <button type="button"> "Bring it on!"</button>  
+        <div class="buttons-div">
+        <button id="dorjes-button" type="button"> "Bring it on!"</button>  
     </div>
-    <div class="score-board">
-        <div id="user-label" class="badge">user</div>
-        <!-- <div id="computer-label" class="badge">computer</div> -->
-        <span id= "user-score">0</span>:
-        <span id="computer-score">0</span>
+        <div class="score-board">      
+
         <section> 
             <p id="result-display"></p>
             <p id ="result-tally"></p>
-            Wins: <span id='wins'>0<span> 
-            Losses: <span id='losses'>0</span>
-            Ties:  </span id= 'ties'>0</span>
-                </p>
-        </section>
+        Wins: <span id='wins-display'>0<span> 
+        Losses: <span id='losses-display'>0</span>
+        Ties:  <span id= 'ties-display'>0</span>
+          
     </div>
 <footer></footer>
     <script type="module" src="app.js"></script>
