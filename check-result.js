@@ -10,7 +10,7 @@ export default function checkResult(playerChoice, computerChoice) {
     } else if (playerChoice === 'rock' && computerChoice === 'scissors')
     {
         console.log ('You win!');
-        return ' c';
+        return 'You win!';
     } else if (playerChoice === 'scissors' && computerChoice === 'paper')
     {
         console.log ('You win!');
