@@ -23,7 +23,9 @@ p {
     font-size: 18}
 
 ul {
-    text-align: center;
+    display: table;
+    margin: 0;
+    auto;
     font: Arial;
     font-size: 18}
    
