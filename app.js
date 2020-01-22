@@ -31,11 +31,13 @@ myButton.addEventListener('click', () =>{
         lossesDisplay.textContent = losses;
         resultDisplay.classList.remove('hidden');
         resultDisplay.textContent = 'Computer Wins!!';
-    } else if (result === 'Tie!'){
+    } else if 
+    (result === 'Tie!'){
         ties++;
         tiesDisplay.textContent = ties;
         resultDisplay.classList.remove ('hidden');
         resultDisplay.textContent = 'Tie!';
     }
+    
     
 });
